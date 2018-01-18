@@ -1,0 +1,38 @@
+
+
+
+.firstText {
+    font-size: 34px;
+    font-family: Agency FB;
+}
+
+.secondText {
+    font-size: 24px;
+    font-family: Bradley Hand ITC;
+}
+
+.whiteFont {
+    color: white;
+}
+.firstSlide{
+background-color: black;
+color: black;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+.pandaImage {
+    /* width: 100%;
+    height: auto; */
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background: black;
+}
+
+
+.temp {
+    max-width: 100%;
+    height: auto;
+}

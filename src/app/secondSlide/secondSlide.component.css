@@ -1,0 +1,18 @@
+
+.secondSlide {
+    background-color: black;
+}
+
+.secondText {
+    font-size: 26px;
+    font-family: Agency FB;
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.pandaImage {
+    /* width: 100%;
+    height: auto; */
+    padding-top: 2%;
+    padding-bottom: 2%;
+}

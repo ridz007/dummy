@@ -1,0 +1,14 @@
+
+
+.nextButton {
+    color: white;
+    background-color: black;
+    }
+.nextSpace {
+        padding-top: 2%;
+        padding-bottom: 2%;
+}
+.temp {
+    max-width: 100%;
+    height: auto;
+}

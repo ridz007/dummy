@@ -1,0 +1,16 @@
+.fourthslide {
+    background-color: black;
+}
+.fourthText{
+    font-size: 24px;
+    font-family: Agency FB;
+    color: white;
+    text-align: justify;
+}
+.pandaImage {
+    /* width: 100%;
+    height: auto; */
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background: black;
+}

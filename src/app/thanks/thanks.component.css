@@ -1,0 +1,22 @@
+.thanksSlide {
+    background: black;
+    color: white;
+    font-size: 34px;
+    font-family: Agency FB;
+    border: 1px solid white;
+}
+
+.thanksText {
+    margin: 8% 0%;
+}
+
+.pandaImage {
+    padding-bottom: 10%;
+    max-width: 100%; 
+    height: auto;
+}
+.padding {
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}

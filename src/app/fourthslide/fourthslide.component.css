@@ -1,0 +1,18 @@
+.fourthslide {
+    background-color: black;
+}
+.fourthText{
+    font-size: 28px;
+    font-family: Agency FB;
+    color: white;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.fourthImage {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}

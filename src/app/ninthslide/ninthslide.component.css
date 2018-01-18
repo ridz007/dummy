@@ -1,0 +1,18 @@
+.ninthSlide {
+    background-color: black;
+    border: 2px solid white;
+}
+.thirdText{
+    font-size: 28px;
+    font-family: Agency FB;
+    color: white;
+    text-align: justify;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.pandaImage {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background: black;
+}

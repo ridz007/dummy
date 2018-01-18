@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>PandaPoc</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" src="styles.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <script>
+    var firstSlideComponentJson = {
+      "infosys": "Infosys",
+      "welcome": "Welcome",
+      "firstText": " Golden Panda",
+      "secondText": "~Saying no is not always elegant~",
+      "nextText": "Next",
+      "secondslidetext": "Mrs Panda got a project opportunity in a different location than the current one. She is very excited as this was the opportunity she was waiting for all these years!",
+      "thirdSlideText": "At the same time, she is sad that she’ll have to move away from her husband - Mr.Golden Panda ",
+      "fourthText": "Mrs Panda is now confused whether to take up the opportunity or not. So she discusses it with Mr. Panda and decides to refuse the project.",
+      "fifthUpperText": "And as expected, Mrs. Golden Panda refuses the project stating reason as location constraints. And consequently, manager – Noodles, files the case on TMS.",
+      "fifthLowerText": "Note: It is very important that the project refusal is filed on the system and it is mandatory for the Manager to attach the refusal mail on the system.",
+      "sixthUpperText": "Mrs Golden Panda gets an email trigger on the refusal of the project along with the project refusal guidelines. She gets confused, as she thought it was ok to refuse a project. To get a better understanding, she reaches out to her BPHR - Master Shifu.",
+      "sixthLowerText": "Note: Post filing of project refusal, employees get 2 days to reach out to BPHR to discuss the same. And the BPHR gets 3 days SLA from the date of refusal to validate/ invalidate.",
+      "seventhText": "So, Master Shifu counsels and tell her how accepting the project is in her best interest as well as the organisation’s interest. And refusing a project assigned by the company is a policy violation. He also guides her to check with her husband if he can look for opportunities in the same location as the one she’s getting.",
+      "eightText": "Mrs. Golden Panda understands the serverity and understands that it is in her interest, thus agrees to accept the project. Parallely, she also talks to Mr. Panda to talk to his manager for location change if possible.",
+      "ninthText": "Mr. Golden Panda decides to discuss this with his Manager – Mr. Ping. Mr. Ping says that he will look for a slot availability at that location as this needs to go through proper process. In the meantime, he asks him to raise a system transfer.",
+      "tenthText": "Mr. Golden Panda very happily comes home overjoyed and tells Mrs. Panda that his Manager will look for possibilities at that location and get back to him. They both are really excited that now as they still have a chance to be together and live A Happy life",
+      "quiz1": "1. Golden Panda asks you : What are the reasons which are considered genuine by the company when it comes to Project Refusal?",
+      "quiz2": "2. Does disciplinary action for project refusal has something to do with Bench period?",
+      "quiz3": "3. How are the location and shift refusals being handled?",
+      "quiz4":"4. Post that he enquires - What if someone refuses a project when on production?",
+      "quiz5":"5. And he continued to ask - There are many employees on bench who have signed up for Accelerate assignments. Is it considered in any way when an employee is refusing a project?",
+      "quiz1Ans":"2",
+      "quiz2Ans":"2",
+      "quiz3Ans":"3",
+      "quiz4Ans":"3",
+      "quiz5Ans":"3",
+      "quiz1Options": [{
+        'id': '1',
+        'reason': 'Employee cant refuse any project'
+      }, {
+        'id': '2',
+        'reason': 'Why are you asking stupid questions? You just accept the project'
+      }, {
+        'id': '3',
+        'reason': '	Company considers the case genuine when – i. Skill mismatch (only when the company is not able to provide training for that skill)'
+      }, {
+        'id': '4',
+        'reason': 'It is basis the situation'
+      }],
+      "quiz2Options": [{
+        'id': '1',
+        'reason': 'No, it is related to the criticality of the project'
+      }, {
+        'id': '2',
+        'reason': 'No, it is related to the date of joining of the employee'
+      }, {
+        'id': '3',
+        'reason': 'If the bench period is more than 30 days, then the company can take a strict disciplinary action including but not limited to termination of services'
+      }, {
+        'id': '4',
+        'reason': 'It is dependent on your rapport with your Manager'
+      }],
+      "quiz3Options": [{
+        'id': '1',
+        'reason': 'No action. Let me know where you want to relocate.'
+      }, {
+        'id': '2',
+        'reason': 'The employee gets 2 chances to refuse location and shifts'
+      }, {
+        'id': '3',
+        'reason': 'An “outstanding performer” can ask for any location or shift'
+      }, {
+        'id': '4',
+        'reason': 'Except in case of a critical illness of self or immediate dependents, it may result in termination of employment even for the first refusal irrespective on bench or production'
+      }],
+      "quiz4Options": [{
+        'id': '1',
+        'reason': 'Direct termination'
+      }, {
+        'id': '2',
+        'reason': 'The employee gets three chances to refuse projects.'
+      }, {
+        'id': '3',
+        'reason': 'If you have been an ‘outstanding’ performer, you can refuse as many projects as you want.'
+      }, {
+        'id': '4',
+        'reason': 'For employees who refuse two projects without valid reasons as may be determined by the company, appropriate disciplinary action(s) will be immediately initiated, irrespective of the time spent on bench or on production.'
+      }],
+      "quiz5Options": [{
+        'id': '1',
+        'reason': 'I don’t understand why it should be considered.'
+      }, {
+        'id': '2',
+        'reason': 'Let me check the policy and get back to you.'
+      }, {
+        'id': '3',
+        'reason': 'No, it will be only considered in iCount.'
+      }, {
+        'id': '4',
+        'reason': 'Yes, while calculating the bench period, time spent on Accelerate assignments is taken off.'
+      }],
+      "oopsText": "Oops!! Try Again!!!",
+      "modalText": "You have hit bull's-eye, Daring Tiger !",
+      "thanksText": "Golden Panda appreciated your help in understanding the policy better.",
+      "pointsText":"Points to be noted…",
+      "tipsText1":"Our understanding of the project refusal is very important.",
+      "tipsText2":"It is very important that we have the project refusal captured on the",
+      "tipsText3":"system along with the refusal email.",
+      "tipsText4":"You get",
+      "tipsText5":"3 days SLA",
+      "tipsText6":"to validate/invalidate the record on system.",
+      "tipsText7":"When you validate the record on system, the recent",
+      "tipsText8":"TMS and REACH Linkage will trigger",
+      "tipsText9":"a) The Warning letter for first refusals when the bench period is less than 30 days.",
+      "tipsText10":"b) The case on REACH when bench period is more than 30 days or in case of second refusals. ",
+      "tipsText11":"c) The case on REACH in case of location, shift refusals and also when the employee is not reachable (irrespective of the bench period).",
+      "tipsText12":"It is still a good practice to ",
+      "tipsText13":"counsel",
+      "tipsText14":"the employee if he/she refuses a",
+      "tipsText15":"project for a non-genuine reason.",
+      "tipsText16":"It is important that we keep reiterating to the employees how accepting",
+      "tipsText17":"projects will help them and how each",
+      "tipsText18":"opportunity brings learning…",
+      "tipsText19":"And by the way… ",
+      "tipsText20":"Golden Panda got an onsite opportunity in that project. ",
+      "tipsText21":"And this is what Mr. and Mrs. Golden Panda are up to these days.",
+
+
+
+
+    }
+
+
+  </script>
+  <app-root>loading...</app-root>
+</body>
+
+</html>

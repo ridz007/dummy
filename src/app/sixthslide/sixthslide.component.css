@@ -1,0 +1,20 @@
+
+
+.sixthUpperText{font-size: 24px;
+    font-family: Agency FB;
+    color: white;
+    text-align: justify;}
+
+.sixthLowerText{font-size: 20px;
+    font-family: Cambria;
+    color: red;
+    text-align: justify;}
+
+.sixthSlide {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background: black;
+}
+.pandaImage {
+    margin: 13% 0%;
+}

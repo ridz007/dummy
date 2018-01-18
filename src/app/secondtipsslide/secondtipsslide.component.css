@@ -1,0 +1,31 @@
+.secondTipsSlide {
+    background: black;
+    color: white;
+    font-size: 34px;
+    font-family: Agency FB;
+    border: 1px solid white;
+}
+
+.goldenText {
+    color: goldenrod;
+}
+
+.padding {
+    padding-top: 6%;
+}
+
+.paddingBottom {
+    padding-bottom: 6%;
+}
+.font18 {
+    font-size: 18px;
+}
+
+.font26 {
+    font-size: 26px;
+}
+.font24 {
+    font-size: 24px;
+}
+
+
